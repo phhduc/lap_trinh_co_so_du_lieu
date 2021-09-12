@@ -67,7 +67,6 @@ namespace bttuan3
             // 
             // bntRemove
             // 
-            this.bntRemove.Enabled = false;
             this.bntRemove.Location = new System.Drawing.Point(235, 20);
             this.bntRemove.Name = "bntRemove";
             this.bntRemove.Size = new System.Drawing.Size(28, 25);

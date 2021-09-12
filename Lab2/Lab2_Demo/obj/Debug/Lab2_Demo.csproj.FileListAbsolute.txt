@@ -1,0 +1,20 @@
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\bin\Debug\Lab2_Demo.exe.config
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\bin\Debug\Lab2_Demo.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\bin\Debug\Lab2_Demo.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.TrungTamForm.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.Properties.Resources.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.csproj.GenerateResource.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2_Demo\obj\Debug\Lab2_Demo.pdb
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\bin\Debug\Lab2_Demo.exe.config
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\bin\Debug\Lab2_Demo.exe
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\bin\Debug\Lab2_Demo.pdb
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.TrungTamForm.resources
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.Properties.Resources.resources
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.csproj.GenerateResource.cache
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.exe
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2_Demo\obj\Debug\Lab2_Demo.pdb
