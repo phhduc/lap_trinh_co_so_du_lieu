@@ -1,0 +1,13 @@
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\bin\Debug\Data\Data.txt
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\bin\Debug\bttuan3.exe.config
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\bin\Debug\bttuan3.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\bin\Debug\bttuan3.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.AddFeedForm.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.MainForm.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.Properties.Resources.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.csproj.GenerateResource.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\baitaptuan3\bttuan3\obj\Debug\bttuan3.Components.NewControl.resources
