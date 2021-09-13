@@ -43,7 +43,7 @@ namespace Lab2_Demo
         private void btnTinhTien_Click(object sender, EventArgs e)
         {
             int s = 0;
-            if (chkTinHocA.Checked) s += int.Parse(lbTienTHA.Text.Split(',')[0]);
+            if (chkTinHocA.Checked) s += int.Parse(lbTienTHA.Text.Split('.')[0]);
             if (chkTinHocB.Checked) s += int.Parse(lblTienThB.Text.Split('.')[0]);
             if (chkTiengAnhA.Checked) s += int.Parse(lblTienTAA.Text.Split('.')[0]);
             if (chkTiengAnhB.Checked) s += int.Parse(lblTienTAB.Text.Split('.')[0]);

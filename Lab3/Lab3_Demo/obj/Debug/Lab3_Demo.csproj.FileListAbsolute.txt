@@ -1,0 +1,13 @@
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\bin\Debug\Lab3_Demo.exe.config
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\bin\Debug\Lab3_Demo.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\bin\Debug\Lab3_Demo.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.SinhVienForm.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.Properties.Resources.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.csproj.GenerateResource.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\bin\Debug\Data\Data.txt
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.Data.TuyChonForm.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab3\Lab3_Demo\obj\Debug\Lab3_Demo.Input.resources

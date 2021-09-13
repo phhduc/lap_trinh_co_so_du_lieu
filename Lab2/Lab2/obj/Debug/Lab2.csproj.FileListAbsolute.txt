@@ -9,3 +9,14 @@ C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2\obj\Debug\Lab2.csproj.Gen
 C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
 C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2\obj\Debug\Lab2.exe
 C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\Lab2\obj\Debug\Lab2.pdb
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.GiaoVienForm.resources
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.TBGiaoVienForm.resources
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Users\Admin\DLU\LapTrinhCoSoDuLieu\Lab2\Lab2\obj\Debug\Lab2.pdb
