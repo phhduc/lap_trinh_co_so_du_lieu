@@ -128,11 +128,13 @@ namespace Lab3_Demo
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            SinhVien sv = GetSinhVien();
-            SinhVien kq = qlsv.Tim(sv.MaSo, delegate (object obj1, object obj2)
+            if(chklbChuyenNganh.SelectedItems.Count<1)
             {
-                return (obj2 as SinhVien).MaSo.CompareTo(obj1.ToString());
-            });
+                MessageBox.Show("Bạn chưa chọn chuyên ngành ", "Cảnh Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            SinhVien sv = GetSinhVien();
+            SinhVien kq = qlsv.Tim(sv.MaSo, SoSanhTheoMa);
             if (kq != null)
                 MessageBox.Show("Mã sinh viên đã tồn tại!", "Lỗi thêm dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
@@ -156,10 +158,7 @@ namespace Lab3_Demo
             {
                 lvitem = this.lvSinhVien.Items[i];
                 if (lvitem.Checked)
-                    qlsv.Xoa(lvitem.SubItems[0].Text, delegate (object obj1, object obj2)
-                    {
-                        return (obj2 as SinhVien).MaSo.CompareTo(obj1.ToString());
-                    });
+                    qlsv.Xoa((lvitem.SubItems[0].Text), SoSanhTheoMa);
             }
             this.LoadListView();
             this.btnMacDinh.PerformClick();
@@ -177,19 +176,25 @@ namespace Lab3_Demo
             this.rdNam.Checked = true;
             for (int i = 0; i < this.chklbChuyenNganh.Items.Count - 1; i++)
                 this.chklbChuyenNganh.SetItemChecked(i, false);
+            this.LoadListView();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
             SinhVien sv = GetSinhVien();
+            sv.MaSo = sv.MaSo.Split('.')[1];
             bool kqsua;
             kqsua = qlsv.Sua(sv, sv.MaSo, SoSanhTheoMa);
+            
             if (kqsua) this.LoadListView();
+
+
+           
         }
         private int SoSanhTheoMa(object obj1, object obj2)
         {
             SinhVien sv = obj2 as SinhVien;
-            return sv.MaSo.CompareTo(obj1);
+            return sv.MaSo.CompareTo(obj1 as string);
         }
 
         private void bntBrowse_Click(object sender, EventArgs e)
@@ -208,7 +213,17 @@ namespace Lab3_Demo
 
         private void mởFileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.bntBrowse.PerformClick();
+            OpenFileDialog f = new OpenFileDialog();
+            qlsv = new QuanLySinhVien();
+            f.Title = "Mở file";
+            f.Filter = "txtFile (*.txt)|*.txt|All files (*.*)|*.*";
+            f.FilterIndex = 2;
+            f.RestoreDirectory = true;
+            if (f.ShowDialog() == DialogResult.OK)
+                qlsv.FileName = f.FileName;
+            qlsv.DocTuFile();
+            lvSinhVien.Items.Clear();
+            this.LoadListView();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
@@ -233,23 +248,88 @@ namespace Lab3_Demo
 
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FontDialog f = new FontDialog();
+            f.ShowDialog();
+            if(f.ShowDialog() == DialogResult.OK)
+            {
+                
+                lvSinhVien.Font = f.Font;
+            }
             
         }
 
         private void màuChữToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          
+            ColorDialog f = new ColorDialog();
+            f.ShowDialog();
+            if (f.ShowDialog() == DialogResult.OK)
+            {
+                lvSinhVien.ForeColor = f.Color;
+            }
+        }
+
+        private void tìmKiếmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TuyChonForm f = new TuyChonForm();
+            f.ShowDialog();
+            string s = f.Tk;
+            List<SinhVien> ds = new List<SinhVien>();
+            switch (f.SS)
+            {
+                case 1:
+                    ds = (qlsv.Tim2(s, TimTheoMS));
+                    break;
+                case 2:
+                    ds= (qlsv.Tim2(s, TimTheoTen));
+                    break;
+                case 3:
+                    ds=(qlsv.Tim2(s, TimTheoNS));
+                    break;
+            }
+            lvSinhVien.Items.Clear();
+            LoadList(ds);
+
         }
 
         private void sắpXếpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            TuyChonForm f = new TuyChonForm(true);
+            f.ShowDialog();
+            switch (f.SS)
+            {
+                case 1:
+                    qlsv.DanhSach.Sort(SoSanhTheoMa);
+                    break;
+                case 2:
+                    qlsv.DanhSach.Sort(SoSanhTheoHoTen);
+                    break;
+                case 3:
+                    qlsv.DanhSach.Sort(SoSanhTheoNS);
+                    break;
+            }
+            lvSinhVien.Items.Clear();
+            this.LoadListView();
         }
-
-        private void xắpSếpToolStripMenuItem_Click(object sender, EventArgs e)
+        public int SoSanhTheoHoTen(object obj1, object obj2)
         {
-            TuyChonForm a = new TuyChonForm(true);
-            a.ShowDialog();
+            return (obj2 as SinhVien).MaSo.CompareTo((obj1 as SinhVien).MaSo);
         }
+        public int SoSanhTheoNS(object obj1, object obj2)
+        {
+            return DateTime.Compare((obj1 as SinhVien).NgaySinh, (obj2 as SinhVien).NgaySinh);
+        }
+        public int TimTheoTen(object o1, object o2)
+        {
+            return (o2 as SinhVien).HoTen.Contains(o1 as string) ? 0 : 1 ;
+        }
+        public int TimTheoMS(object o1, object o2)
+        {
+            return (o2 as SinhVien).MaSo.Contains(o1 as string)?0:1;
+        }
+        public int TimTheoNS(object o1, object o2)
+        {
+            return (o2 as SinhVien).NgaySinh.ToString().Contains(o1 as string)?0:1;
+        }
+        
     }
 }

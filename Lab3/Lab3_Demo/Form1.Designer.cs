@@ -121,6 +121,7 @@ namespace Lab3_Demo
             this.columnHeader7,
             this.columnHeader8});
             this.lvSinhVien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvSinhVien.FullRowSelect = true;
             this.lvSinhVien.GridLines = true;
             this.lvSinhVien.HideSelection = false;
             this.lvSinhVien.Location = new System.Drawing.Point(3, 18);
@@ -260,6 +261,7 @@ namespace Lab3_Demo
             // 
             // cboLop
             // 
+            this.cboLop.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLop.FormattingEnabled = true;
             this.cboLop.Items.AddRange(new object[] {
             "CTK31",
@@ -310,12 +312,13 @@ namespace Lab3_Demo
             this.chklbChuyenNganh.CheckOnClick = true;
             this.chklbChuyenNganh.FormattingEnabled = true;
             this.chklbChuyenNganh.Items.AddRange(new object[] {
-            "Mạng truyền thông",
+            "Mạng và truyền thông",
             "Công nghệ phần mềm",
             "Khoa học máy tính",
             "Trí tuệ nhân tạo",
             "Hệ thống thông tin",
-            "Tin học ứng dụng"});
+            "Tin học ứng dụng",
+            "Khoa học dữ liệu"});
             this.chklbChuyenNganh.Location = new System.Drawing.Point(142, 278);
             this.chklbChuyenNganh.Name = "chklbChuyenNganh";
             this.chklbChuyenNganh.Size = new System.Drawing.Size(238, 157);
@@ -377,9 +380,9 @@ namespace Lab3_Demo
             // mtxtMaSo
             // 
             this.mtxtMaSo.Location = new System.Drawing.Point(236, 7);
-            this.mtxtMaSo.Mask = "SV.00000";
+            this.mtxtMaSo.Mask = "SV.0000000";
             this.mtxtMaSo.Name = "mtxtMaSo";
-            this.mtxtMaSo.Size = new System.Drawing.Size(77, 22);
+            this.mtxtMaSo.Size = new System.Drawing.Size(118, 22);
             this.mtxtMaSo.TabIndex = 31;
             // 
             // label8
@@ -491,14 +494,14 @@ namespace Lab3_Demo
             // mởFileToolStripMenuItem
             // 
             this.mởFileToolStripMenuItem.Name = "mởFileToolStripMenuItem";
-            this.mởFileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.mởFileToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
             this.mởFileToolStripMenuItem.Text = "Mở File";
             this.mởFileToolStripMenuItem.Click += new System.EventHandler(this.mởFileToolStripMenuItem_Click);
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -572,13 +575,13 @@ namespace Lab3_Demo
             this.tìmKiếmToolStripMenuItem.Name = "tìmKiếmToolStripMenuItem";
             this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tìmKiếmToolStripMenuItem.Text = "Tìm kiếm";
+            this.tìmKiếmToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmToolStripMenuItem_Click);
             // 
             // xắpSếpToolStripMenuItem
             // 
             this.xắpSếpToolStripMenuItem.Name = "xắpSếpToolStripMenuItem";
             this.xắpSếpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.xắpSếpToolStripMenuItem.Text = "Xắp sếp";
-            this.xắpSếpToolStripMenuItem.Click += new System.EventHandler(this.xắpSếpToolStripMenuItem_Click);
             // 
             // SinhVienForm
             // 

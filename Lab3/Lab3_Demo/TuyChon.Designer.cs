@@ -82,6 +82,7 @@ namespace Lab3_Demo.Data
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.ForeColor = System.Drawing.Color.Blue;
             this.radioButton1.Location = new System.Drawing.Point(34, 24);
@@ -136,10 +137,11 @@ namespace Lab3_Demo.Data
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.button2.Location = new System.Drawing.Point(115, 320);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 35);
+            this.button2.Size = new System.Drawing.Size(139, 35);
             this.button2.TabIndex = 3;
             this.button2.Text = "Sắp xếp";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 

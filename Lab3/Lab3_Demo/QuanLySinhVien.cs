@@ -10,11 +10,12 @@ namespace Lab3_Demo
     public delegate int SoSanh(object sv1, object v2);
     public class QuanLySinhVien
     {
-
+        public string FileName { get; set; }
         public List<SinhVien> DanhSach;
         public QuanLySinhVien()
         {
             DanhSach = new List<SinhVien>();
+            this.FileName = "Data\\data.txt";
         }
         public void Them(SinhVien sv)
         {
@@ -34,9 +35,31 @@ namespace Lab3_Demo
                     this.DanhSach.RemoveAt(i);
             }
         }
-
-        public SinhVien Tim(object obj, SoSanh ss)
+        public List<SinhVien> Tim2(object obj, SoSanh ss)
         {
+            List<SinhVien> r = new List<SinhVien>();
+
+            foreach (SinhVien sv in DanhSach)
+            {
+                if (ss(obj, sv) == 0)
+                    r.Add(sv);
+            }
+            return r;
+        }
+
+        public SinhVien  Tim(object obj, SoSanh ss)
+        {
+            /*
+            List<SinhVien> r = new List<SinhVien>();
+            
+            foreach(SinhVien sv in DanhSach)
+            {
+                if (ss(obj, sv) == 0)
+                    r.Add(sv);
+            }
+            return r;
+            */
+
             SinhVien svresult = null;
             foreach(SinhVien sv in DanhSach)
                 if(ss(obj, sv) == 0)
@@ -45,6 +68,7 @@ namespace Lab3_Demo
                     break;
                 }
             return svresult;
+            
         }
         public bool Sua(SinhVien svsua, object obj, SoSanh ss)
         {
@@ -62,11 +86,12 @@ namespace Lab3_Demo
         }
         public void DocTuFile()
         {
-            string filename = "Data\\data.txt" , t;
+            string t;
             string[] s;
             SinhVien sv;
             StreamReader sr = new StreamReader(
-                new FileStream(filename, FileMode.Open));
+                new FileStream(this.FileName, FileMode.Open));
+            
             while((t= sr.ReadLine()) != null)
             {
                 s = t.Split('*');
@@ -79,11 +104,19 @@ namespace Lab3_Demo
                 sv.Hinh = s[5];
                 sv.GioiTinh = false;
                 if (s[6] == "1") sv.GioiTinh = true;
-                string[] cn = s[7].Split(',');
-                foreach (string c in cn)
-                    sv.ChuyenNganh.Add(c);
+                if (s[7].Contains(","))
+                {
+                    string[] cn = s[7].Split(',');
+                    foreach (string c in cn)
+                        sv.ChuyenNganh.Add(c.Trim());
+                }
+                else
+                {
+                    sv.ChuyenNganh.Add(s[7].Trim());
+                }
                 this.Them(sv);
             }
+            sr.Close();
         }
     }
 }
