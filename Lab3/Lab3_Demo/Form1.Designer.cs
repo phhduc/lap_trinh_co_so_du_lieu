@@ -80,7 +80,6 @@ namespace Lab3_Demo
             this.màuChữToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sắpXếpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tìmKiếmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xắpSếpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -511,8 +510,7 @@ namespace Lab3_Demo
             this.thêmToolStripMenuItem,
             this.xóaToolStripMenuItem,
             this.sửaToolStripMenuItem,
-            this.listViewToolStripMenuItem,
-            this.xắpSếpToolStripMenuItem});
+            this.listViewToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.editToolStripMenuItem.Text = "Edit";
@@ -552,36 +550,30 @@ namespace Lab3_Demo
             // fontToolStripMenuItem
             // 
             this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.fontToolStripMenuItem.Text = "Font";
             this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
             // 
             // màuChữToolStripMenuItem
             // 
             this.màuChữToolStripMenuItem.Name = "màuChữToolStripMenuItem";
-            this.màuChữToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.màuChữToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.màuChữToolStripMenuItem.Text = "Màu chữ";
             this.màuChữToolStripMenuItem.Click += new System.EventHandler(this.màuChữToolStripMenuItem_Click);
             // 
             // sắpXếpToolStripMenuItem
             // 
             this.sắpXếpToolStripMenuItem.Name = "sắpXếpToolStripMenuItem";
-            this.sắpXếpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sắpXếpToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.sắpXếpToolStripMenuItem.Text = "Sắp xếp";
             this.sắpXếpToolStripMenuItem.Click += new System.EventHandler(this.sắpXếpToolStripMenuItem_Click);
             // 
             // tìmKiếmToolStripMenuItem
             // 
             this.tìmKiếmToolStripMenuItem.Name = "tìmKiếmToolStripMenuItem";
-            this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tìmKiếmToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.tìmKiếmToolStripMenuItem.Text = "Tìm kiếm";
             this.tìmKiếmToolStripMenuItem.Click += new System.EventHandler(this.tìmKiếmToolStripMenuItem_Click);
-            // 
-            // xắpSếpToolStripMenuItem
-            // 
-            this.xắpSếpToolStripMenuItem.Name = "xắpSếpToolStripMenuItem";
-            this.xắpSếpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.xắpSếpToolStripMenuItem.Text = "Xắp sếp";
             // 
             // SinhVienForm
             // 
@@ -660,7 +652,6 @@ namespace Lab3_Demo
         private System.Windows.Forms.ToolStripMenuItem màuChữToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sắpXếpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tìmKiếmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem xắpSếpToolStripMenuItem;
     }
 }
 
