@@ -163,8 +163,10 @@ namespace Lab4
 
         private void tảiLạiDanhSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            m = new Manager();
             m.ReadFile();
             LoadLV();
+            btnDefault.PerformClick();
         }
     }
 }
