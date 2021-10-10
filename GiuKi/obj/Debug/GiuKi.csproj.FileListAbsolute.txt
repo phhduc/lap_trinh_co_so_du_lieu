@@ -1,0 +1,16 @@
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\bin\Debug\GiuKi.exe.config
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\bin\Debug\GiuKi.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\bin\Debug\GiuKi.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.csproj.AssemblyReference.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.Form1.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.Properties.Resources.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.csproj.GenerateResource.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.exe
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.pdb
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.View.StudentInfo.resources
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.csproj.CopyComplete
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\bin\Debug\Data\data.txt
+C:\Users\Admin\DLU_nongit\Lap trinh co so du lieu\GiuKi\obj\Debug\GiuKi.csproj.ResolveComReference.cache
