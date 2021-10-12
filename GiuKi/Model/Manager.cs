@@ -97,8 +97,7 @@ namespace GiuKi.Model
         {
             List<Sv> ds = new List<Sv>();
             foreach (var x in Students)
-                if (x.FirstName.ToLower().Contains(id.ToLower()) 
-                    || x.LastName.ToLower().Contains(id.ToLower()))
+                if ((x.FirstName+" " +x.LastName).ToLower().Contains(id.ToLower()))
                     ds.Add(x);
             return ds;
         }

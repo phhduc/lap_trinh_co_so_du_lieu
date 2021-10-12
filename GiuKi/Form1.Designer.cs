@@ -92,14 +92,14 @@ namespace GiuKi
             // tsmiExcelSave
             // 
             this.tsmiExcelSave.Name = "tsmiExcelSave";
-            this.tsmiExcelSave.Size = new System.Drawing.Size(224, 26);
+            this.tsmiExcelSave.Size = new System.Drawing.Size(126, 26);
             this.tsmiExcelSave.Text = "Excel";
             this.tsmiExcelSave.Click += new System.EventHandler(this.tsmiExcelSave_Click);
             // 
             // tsmiJsonSave
             // 
             this.tsmiJsonSave.Name = "tsmiJsonSave";
-            this.tsmiJsonSave.Size = new System.Drawing.Size(224, 26);
+            this.tsmiJsonSave.Size = new System.Drawing.Size(126, 26);
             this.tsmiJsonSave.Text = "Json";
             this.tsmiJsonSave.Click += new System.EventHandler(this.tsmiJsonSave_Click);
             // 
@@ -152,6 +152,7 @@ namespace GiuKi
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(379, 22);
             this.txtSearch.TabIndex = 5;
+            this.txtSearch.Text = "Nhập thông tin cần tìm !!!";
             // 
             // rdSdt
             // 

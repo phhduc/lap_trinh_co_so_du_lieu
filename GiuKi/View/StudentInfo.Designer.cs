@@ -182,7 +182,7 @@ namespace GiuKi.View
             // 
             // dtpNgaySinh
             // 
-            this.dtpNgaySinh.CustomFormat = "dd/mm/yyyy";
+            this.dtpNgaySinh.CustomFormat = "dd/MM/yyyy";
             this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgaySinh.Location = new System.Drawing.Point(144, 89);
             this.dtpNgaySinh.Name = "dtpNgaySinh";

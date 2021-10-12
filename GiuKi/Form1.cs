@@ -27,10 +27,24 @@ namespace GiuKi
             LoadLv(manager.Students);
             LoadTree();
             this.txtSearch.TextChanged += TxtSearch_TextChanged;
+            this.txtSearch.LostFocus += TxtSearch_LostFocus;
+            this.txtSearch.GotFocus += TxtSearch_GotFocus;
+        }
+
+        private void TxtSearch_GotFocus(object sender, EventArgs e)
+        {
+            this.txtSearch.Text = "";
+        }
+
+        private void TxtSearch_LostFocus(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(this.txtSearch.Text))
+                this.txtSearch.Text = "Nhập thông tin cần tìm !!!";
         }
 
         private void TxtSearch_TextChanged(object sender, EventArgs e)
         {
+            if (this.txtSearch.Text == "Nhập thông tin cần tìm !!!") return;
             if (this.rdMs.Checked) LoadLv(manager.GetSvID(this.txtSearch.Text));
             if (this.rdSdt.Checked) LoadLv(manager.GetSvPhone(this.txtSearch.Text));
             if (this.rdTen.Checked) LoadLv(manager.GetSvName(this.txtSearch.Text));

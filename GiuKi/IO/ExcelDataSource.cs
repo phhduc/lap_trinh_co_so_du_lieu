@@ -45,7 +45,7 @@ namespace GiuKi.IO
                 ws.Cells[row, 3] = x.LastName;
                 if (x.Gender) ws.Cells[row, 4] = "Nam";
                 else ws.Cells[row, 4] = "Nữ";
-                ws.Cells[row, 5] = x.DateOfBirth.ToString();
+                ws.Cells[row, 5] = x.DateOfBirth.ToString("d");
                 ws.Cells[row, 6] = x.PhoneNumber;
                 ws.Cells[row, 7] = x.Address;
                 ws.Cells[row, 8] = x.ClassName;
