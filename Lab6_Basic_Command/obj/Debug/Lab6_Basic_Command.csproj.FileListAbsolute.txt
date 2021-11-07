@@ -1,0 +1,15 @@
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe.config
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.exe
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\bin\Debug\Lab6_Basic_Command.pdb
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.AssemblyReference.cache
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Form1.resources
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.Properties.Resources.resources
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.GenerateResource.cache
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.exe
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.pdb
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.FoodForm.resources
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.BillDetails.resources
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.ResetPass.resources
+C:\Users\Administrator\dlu\LTCSDL\Lab6_Basic_Command\obj\Debug\Lab6_Basic_Command.RoleAccount.resources
