@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab8", "Lab8.csproj", "{284725CE-FDE2-4CB2-A5D4-89076F3CFA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{C61345C1-A7AF-462B-BBEC-E08A60686019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "..\BusinessLogic\BusinessLogic.csproj", "{66009932-D7CA-495A-B99D-224261E1D165}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{284725CE-FDE2-4CB2-A5D4-89076F3CFA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284725CE-FDE2-4CB2-A5D4-89076F3CFA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284725CE-FDE2-4CB2-A5D4-89076F3CFA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284725CE-FDE2-4CB2-A5D4-89076F3CFA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61345C1-A7AF-462B-BBEC-E08A60686019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61345C1-A7AF-462B-BBEC-E08A60686019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61345C1-A7AF-462B-BBEC-E08A60686019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61345C1-A7AF-462B-BBEC-E08A60686019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66009932-D7CA-495A-B99D-224261E1D165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66009932-D7CA-495A-B99D-224261E1D165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66009932-D7CA-495A-B99D-224261E1D165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66009932-D7CA-495A-B99D-224261E1D165}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394AAD98-A050-4433-9666-8C48B30AEB02}
+	EndGlobalSection
+EndGlobal

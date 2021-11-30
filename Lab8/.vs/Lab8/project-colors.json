@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "284725ce-fde2-4cb2-a5d4-89076f3cfa8a": {
+      "ProjectGuid": "284725ce-fde2-4cb2-a5d4-89076f3cfa8a",
+      "DisplayName": "Lab8",
+      "ColorIndex": 0
+    },
+    "90754314-bf97-41b2-a3d0-e4c458bc34da": {
+      "ProjectGuid": "90754314-bf97-41b2-a3d0-e4c458bc34da",
+      "DisplayName": "BusinessLogic",
+      "ColorIndex": 1
+    },
+    "a4e99dc1-ef7e-44f2-9171-b332087c9cac": {
+      "ProjectGuid": "a4e99dc1-ef7e-44f2-9171-b332087c9cac",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 2
+    },
+    "ba5c9a2c-5a14-47b2-8eed-b88eec78d7d9": {
+      "ProjectGuid": "ba5c9a2c-5a14-47b2-8eed-b88eec78d7d9",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 3
+    },
+    "5c642f66-3b47-48f9-9c54-21d007e4e69a": {
+      "ProjectGuid": "5c642f66-3b47-48f9-9c54-21d007e4e69a",
+      "DisplayName": "BusinessLogic",
+      "ColorIndex": 4
+    },
+    "169072d9-7ca9-4ecf-90e6-f08a48de4dcb": {
+      "ProjectGuid": "169072d9-7ca9-4ecf-90e6-f08a48de4dcb",
+      "DisplayName": "BusinessLogic",
+      "ColorIndex": 5
+    },
+    "1e0a9ecf-56c6-472a-931c-c3935fb6417a": {
+      "ProjectGuid": "1e0a9ecf-56c6-472a-931c-c3935fb6417a",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 6
+    },
+    "bb28407f-f46e-4f87-8137-bcce9d3d7eae": {
+      "ProjectGuid": "bb28407f-f46e-4f87-8137-bcce9d3d7eae",
+      "DisplayName": "BusinessLogic",
+      "ColorIndex": 7
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "66009932-d7ca-495a-b99d-224261e1d165": {
+      "ProjectGuid": "66009932-d7ca-495a-b99d-224261e1d165",
+      "DisplayName": "BusinessLogic",
+      "ColorIndex": 8
+    },
+    "c61345c1-a7af-462b-bbec-e08a60686019": {
+      "ProjectGuid": "c61345c1-a7af-462b-bbec-e08a60686019",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

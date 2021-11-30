@@ -1,0 +1,16 @@
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\Lab8.exe.config
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\Lab8.exe
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\Lab8.pdb
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\BusinessLogic.dll
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\DataAccess.dll
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\BusinessLogic.pdb
+C:\Users\Administrator\learning\ltcsdl\Lab8\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.csproj.AssemblyReference.cache
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.Form1.resources
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.csproj.GenerateResource.cache
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.csproj.CopyComplete
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.exe
+C:\Users\Administrator\learning\ltcsdl\Lab8\obj\Debug\Lab8.pdb
